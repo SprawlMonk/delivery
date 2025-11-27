@@ -1,0 +1,19 @@
+.root{
+  margin:0;
+  padding:0;
+}
+
+.ItemCards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 15px; /* space between cards */
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-end;
+    background-color: grey !important;
+}
