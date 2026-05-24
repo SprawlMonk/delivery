@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom'
-import logo from '../assets/logo.png'
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
+import Dropdown from './Dropdown.jsx';
 
 const NavBar = () => {
   return (
@@ -29,9 +30,7 @@ const NavBar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/category">
-                Category
-              </Link>
+              <Dropdown />
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/cart">
